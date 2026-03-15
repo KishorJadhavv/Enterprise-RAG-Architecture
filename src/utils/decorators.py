@@ -1,0 +1,19 @@
+import time
+import functools
+from typing import Callable, Any
+
+def time_execution(func: Callable) -> Callable:
+    """
+    Decorator that logs the execution time of the decorated function.
+    Demonstrates the Decorator design pattern.
+    """
+    @functools.wraps(func)
+    def wrapper(*args, **kwargs) -> Any:
+        start_time = time.perf_counter()
+        result = func(*args, **kwargs)
+        end_time = time.perf_counter()
+        execution_time = end_time - start_time
+        # In a real enterprise system, you'd use a structured logger here
+        print(f"Function '{func.__name__}' executed in {execution_time:.4f} seconds")
+        return result
+    return wrapper
