@@ -12,3 +12,8 @@ httpx
 python-multipart
 PyPDF2
 markdown
+ragas
+pii-leak-detector
+redis
+pandas
+datasets
