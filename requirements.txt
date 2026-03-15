@@ -1,0 +1,14 @@
+langchain
+langchain-community
+langchain-text-splitters
+pymilvus
+fastapi
+uvicorn
+rank_bm25
+sentence-transformers
+pydantic
+pytest
+httpx
+python-multipart
+PyPDF2
+markdown
