@@ -99,3 +99,8 @@ The repository follows MLOps best practices for RAG:
 
 ---
 **Maintained by**: Senior Data & AI Engineering Team
+
+
+---
+### 📫 Let's Connect
+- 🔗 **LinkedIn:** [Kishor Jadhav](https://www.linkedin.com/in/jadhav-kishor/)
